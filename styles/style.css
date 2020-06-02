@@ -194,7 +194,8 @@ hr {
 	.social ul li .icon-instagram  {background: #E4405F;}
 	.social ul li .icon-pinterest {background: #ae181f;}
 	.social ul li .icon-mail {background: #666666;}
- 
+    .social ul li .icon-whatsapp {background: #25D366;}
+    
 	.social ul li a:hover {
 		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
 		padding: 20px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
