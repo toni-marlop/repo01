@@ -20,7 +20,9 @@ body {
   margin: 0 auto;
   background-color:lightgrey;
   padding: 0 20px 20px 20px;
-   box-shadow: 0px 0px 30px #333;   
+  box-shadow: 0px 0px 30px #333;
+  margin-top: 30px;
+  border-radius: 8px;
 
   
 
@@ -50,7 +52,6 @@ h1 {
 .container.gallery-container {
     width: auto;
     color: #35373a;
-    min-height: 100vh;
     border-radius: 20px;
    /* box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);*/
 }

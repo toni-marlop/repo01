@@ -32,9 +32,12 @@ p, li {
 body {
   width: 650px;
   margin: 0 auto;
+  margin-top: 30px;
   background-color:lightgrey;
   padding: 0 20px 20px 20px;
-   box-shadow: 0px 0px 30px #333;   
+  box-shadow: 0px 0px 30px #333;
+  border-radius: 8px;
+
 
   
 
@@ -47,7 +50,7 @@ img {
 }
 
 
-
+/*
 header{ 
     
   text-align: center;
@@ -56,6 +59,7 @@ header{
   padding: 10px 10px 10px 10px;
   border: 5px solid black;
 }
+*/
 
 h2 {
   background-color: #333;
@@ -80,7 +84,7 @@ hr {
 .topnav {
   background-color: #333;
   overflow: hidden;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   box-shadow: 0px 0px 5px #333;
   border-radius: 8px;
 }
@@ -200,4 +204,99 @@ hr {
 		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
 		padding: 20px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
 	}
+
+
+
+
+/*  codigo CSS del Header */
+
+    header {
+        width:100%; /* Establecemos que el header abarque el 100% del documento */
+        overflow:hidden; /* Eliminamos errores de float */
+        background:#252932;
+        margin-bottom:20px;
+    }
+
+    .wrapper {
+        width:90%; /* Establecemos que el ancho sera del 90% */
+        max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+        margin:auto; /* Centramos los elementos */
+        overflow:hidden; /* Eliminamos errores de float */
+    }
+
+    header .logo {
+          text-align: center;
+        color:#f2f2f2;
+        font-size:50px;
+        line-height:200px;
+        float:none;
+    }
+
+    header nav {
+        float:right;
+        line-height:20px;
+    }
+
+    header nav a {
+        display:inline-block;
+        color:#fff;
+        text-decoration:none;
+        padding:10px 20px;
+        line-height:normal;
+        font-size:20px;
+        font-weight:bold;
+        -webkit-transition:all 500ms ease;
+        -o-transition:all 500ms ease;
+        transition:all 500ms ease;
+    }
+
+    header nav a:hover {
+        background:#f56f3a;
+        border-radius:50px;
+    }
+
+    
+ /* Parte 2 del header*/
+
+
+
+ .header2 {
+	position: fixed;
+	height:100px;
+}
+ 
+.header2 .logo {
+	line-height:100px;
+	font-size:30px;
+}
+ 
+.header2 nav {
+	line-height:100px;
+}
+
+
+/* PARTE 3 DEL HEADER*/
+
+
+ @media screen and (max-width: 950px) {
+	header .logo,
+	header nav {
+		width:100%;
+		text-align:center; /*Centramos el menu y el logotipo*/
+		line-height:100px;
+	}
+ 
+	.header2 {
+		height:auto;
+	}
+ 
+	.header2 .logo,
+	.header2 nav {
+		line-height:50px;
+	}
+}
+
+
+
+
 
