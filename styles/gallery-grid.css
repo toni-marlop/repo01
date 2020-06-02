@@ -48,6 +48,12 @@ h1 {
   
 }
 
+hr {
+    color: #333
+    
+        
+}
+
 
 .container.gallery-container {
     width: auto;
@@ -144,3 +150,5 @@ h1 {
 .topnav .icon {
   display: none;
 }
+
+
