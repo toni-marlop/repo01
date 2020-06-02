@@ -1,0 +1,144 @@
+html {
+    font-size: 10px; /* px quiere decir 'pixels': la base del tamaño de fuente es ahora de 1o pixeles*/
+    font-family: 'Chelsea Market', cursive;
+    /* background-color: lightblue; */
+    
+    /* la imagen a ser mostrada a pantalla completa */
+    background:url('fondo.jpg') no-repeat center center;
+ 
+    /* nos aseguramos que el elemento ocupe toda la ventana del navegador */
+    min-height:100%;
+ 
+    /* Propiedad a utilizar para la imagen */
+    background-size:cover;
+    
+}
+
+
+body {
+  width: 650px;
+  margin: 0 auto;
+  background-color:lightgrey;
+  padding: 0 20px 20px 20px;
+   box-shadow: 0px 0px 30px #333;   
+
+  
+
+}
+
+
+/*
+body {
+    background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+    padding: 60px 0;
+}
+*/
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;    
+  color: lightsteelblue;
+  text-shadow: 3px 3px 1px #333;
+  
+}
+
+.container.gallery-container {
+    width: auto;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 5px #333;
+  border-radius: 8px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: lightsteelblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: lightsteelblue;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
