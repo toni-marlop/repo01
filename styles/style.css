@@ -1,6 +1,6 @@
 html {
     font-size: 10px; /* px quiere decir 'pixels': la base del tamaño de fuente es ahora de 1o pixeles*/
-    font-family: 'Chelsea Market', cursive;
+    font-family: 'Architects Daughter', cursive;
     /* background-color: lightblue; */
     
     /* la imagen a ser mostrada a pantalla completa */
@@ -18,7 +18,7 @@ h1 {
   text-align: center;
   margin: 0;
   padding: 20px 0;    
-  color: lightsteelblue;
+  color: grey;
   text-shadow: 3px 3px 1px #333;
   
 }
@@ -33,6 +33,7 @@ body {
   width: 650px;
   margin: 0 auto;
   margin-top: 30px;
+  margin-bottom: 30px;
   background-color:lightgrey;
   padding: 0 20px 20px 20px;
   box-shadow: 0px 0px 30px #333;
